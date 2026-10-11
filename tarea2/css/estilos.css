@@ -1,0 +1,119 @@
+.encabezado {
+    background-color: #1c2b4a;
+}
+
+.pie {
+    background-color: #1c2b4a;
+}
+
+/* reto 1 */
+.titulo-rojo {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #444;
+}
+
+.linea-roja {
+    width: 70px;
+    border-top: 3px solid #dc3545;
+    opacity: 1;
+}
+
+/* reto 2 */
+.fondo-gris {
+    background-color: #f2f2f2;
+}
+
+.titulo-grande {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.circulo {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background-color: #f58220;
+    color: #fff;
+    font-size: 45px;
+}
+
+.naranja {
+    color: #f58220;
+}
+
+.btn-naranja {
+    background-color: #f58220;
+    color: #fff;
+}
+
+.btn-naranja:hover {
+    background-color: #d96d10;
+    color: #fff;
+}
+
+/* reto 4 */
+.icono-celeste {
+    font-size: 55px;
+    color: #3bb3c3;
+}
+
+/* reto 5 */
+.bg-verde {
+    background-color: #8cc800;
+}
+
+.bg-naranja {
+    background-color: #f58a07;
+}
+
+/* reto 6 y 8 */
+.banner {
+    height: 100vh;
+    background-image: url("../imagenes/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #1a3d6e;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.banner2 {
+    height: 80vh;
+    background-image: url("../imagenes/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #555;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-serif {
+    font-family: Georgia, serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* reto 7 */
+figure {
+    width: 100%;
+}
+
+/* reto 9 */
+.logo {
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+    .titulo-grande {
+        font-size: 2rem;
+    }
+    .titulo-serif {
+        font-size: 2.2rem;
+    }
+}
